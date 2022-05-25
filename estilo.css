@@ -1,0 +1,276 @@
+/*
+    FORMATAÇÕES GERAIS
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+/*
+    Logo menu
+*/
+nav .brand-logo {
+    margin-top: 8px;
+}
+nav .brand-logo img {
+    margin-left: 0px;
+}
+i.icon-black {
+    color: black;
+}
+#padding {
+    margin-left: 100px;
+}
+
+
+
+/*
+    PERFIL
+*/
+.perfil {
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+}
+
+.perfilCentro{
+    
+}
+
+.imgperfil {
+    border: 0px solid pink;
+    object-fit: cover;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+}
+
+.perfil .botaoSairConta{
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: none;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 0.9em;
+    margin-top: 12px;
+    background-color: #0392fe;
+}
+
+
+
+.perfil .botaoSairConta:hover{
+    background: #5eb4ff;
+}
+
+.perfil .nome-email{
+    font-size: 20px;
+    
+    
+}
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.linhatabela {
+    border: 0px;
+}
+
+
+
+/*
+    DROPDOWN PERFIL
+*/
+
+ul.select-dropdown,ul.dropdown-content{
+    width:50% !important;
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+}
+
+.botaoinput {
+    width: 100px;
+    font-size: 10px;
+    color: #FFF;
+    background-color:#0392fe;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: none;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 0.6em;
+    border: none;
+    cursor: pointer;
+}
+
+.barra {
+    overflow-x: hidden;
+    min-width: 400px;
+   
+}
+
+/*
+    IMAGEM DE APRESENTAÇÃO
+*/
+.reuniao {
+    background-size: cover;
+    position: relative;
+}
+.texto-apresentacao {
+    position:absolute;
+    color: white;
+    font-size: 10px; 
+    margin-top: -200px;
+}
+
+blockquote{
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #0392fe; /* Just change the color value and that's it*/
+  }
+
+.flow-text {
+    font-size: 3rem;
+}
+
+
+/*
+    LOGO + VER MAIS
+*/
+#logo-saberMais{
+    background-color: #212121;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+#logo-saberMais #logoClara{
+   margin: 30px auto 20px auto;
+   display: block;
+   width: 40%;
+}
+
+#logo-saberMais p{
+    color: #FFF;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    font-size: 1.6em;
+    width: 100%;
+}
+
+#botaomais .btn-large:hover {
+    background: rgb(255, 20, 20);
+}
+
+
+
+
+#logo-saberMais .container-saberMais{
+    color: #000;
+    background-color: #FFF;
+    padding: 10px 40px;
+    font-weight: 600;
+    margin: 30px auto 30px auto;
+    font-family: 'Segoe UI', sans-serif;
+    width: 70%;
+}
+
+/*
+    DIV DOS ÍCONES
+*/
+#containerIcones{
+    background-color:#FFF;
+    display: block;
+}
+
+.containerIcones{
+    display: block;
+    margin: 0 auto;
+}
+
+#containerIcones .material-icons{
+    text-align: center;
+    display: block;
+}
+
+#containerIcones p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.descricoes{
+    margin: -10px 0 -30px 0;
+}
+
+
+/*
+    RODAPÉ
+*/
+p.termos{
+    text-align: justify;
+
+}
+
+#rodape table{
+    margin-top: -15px;
+}
+
+.icon{
+    padding-right: 95px;
+}
+
+/*
+    CLASSES PARA FUNÇÕES GERAIS
+*/
+.center{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+  
+/*
+    OUTRAS ABAS
+*/
+
+/*
+    MINHA EMPRESA
+*/
+
+#pConteudoME{
+    background: rgb(240, 240, 240);
+}
+
+#pConteudoME1 .linkME {
+    color: #0392fe;
+    font-weight: bold;
+}
+
+
+#pConteudoME1 .bloco{
+    font-weight: 500; 
+}
+
+#pConteudoME .me .card-image img{
+    border: 0px solid blue;
+    height: 200px;
+    object-fit: cover;   
+}
